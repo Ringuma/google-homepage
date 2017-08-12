@@ -124,8 +124,14 @@ li a:hover {
   border-radius: 2px;
 }
 
-.button1:hover {
-  box-shadow: 0 2px 4px #DFDFDF;
+.button2:hover {
+  box-shadow: 0 2px 2px #DFDFDF;
+}
+
+.button2:focus {
+  background-color: #3D79DF;
+  box-shadow: 0 3px 0 #3368C1 inset;
+  border: 1px solid #3D79DF;
 }
 
 .navbar-bottom {
@@ -140,6 +146,10 @@ li a:hover {
 .navbar-bottom a {
   color: #666666;
   padding: 10px 13px;
+}
+
+.navbar-bottom a:focus {
+  color: #DD4B39;
 }
 
 .left-links, .right-links{
